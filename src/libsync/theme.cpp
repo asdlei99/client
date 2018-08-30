@@ -555,4 +555,9 @@ QString Theme::versionSwitchOutput() const
     return helpText;
 }
 
+bool Theme::showVirtualFilesOption() const
+{
+    return false;
+}
+
 } // end namespace client
